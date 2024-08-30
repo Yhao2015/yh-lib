@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
     ...baseConfig,
-    base: '/ztxn-lib',
+    base: './',
     build: {
         outDir: 'docs'
     }
