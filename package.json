@@ -1,0 +1,26 @@
+{
+    "name": "ztxn-lib",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "lib/jw.umd.js",
+    "scripts": {
+        "dev": "vite --config ./build/base.config.ts",
+        "build:lib": "vite build --config ./build/lib.config.ts",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "element-plus": "^2.7.6",
+        "lodash-es": "^4.17.21",
+        "prismjs": "^1.29.0",
+        "vue": "^3.4.29",
+        "vue-router": "^4.4.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.5",
+        "sass": "^1.77.7",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.1",
+        "vite-plugin-md": "^0.21.5",
+        "vue-tsc": "^2.0.21"
+    }
+}
