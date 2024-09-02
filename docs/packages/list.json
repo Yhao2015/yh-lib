@@ -1,0 +1,30 @@
+[
+    {
+        "path": "Dialog",
+        "name": "弹框"
+    },
+    {
+        "path": "Drawer",
+        "name": "抽屉"
+    },
+    {
+        "path": "Table",
+        "name": "表格"
+    },
+    {
+        "path": "Form",
+        "name": "表单"
+    },
+    {
+        "path": "DynamicForm",
+        "name": "动态表单"
+    },
+    {
+        "path": "FormTable",
+        "name": "增删改查页面"
+    },
+    {
+        "path": "Tree",
+        "name": "树形控件"
+    }
+]
