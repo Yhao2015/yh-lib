@@ -25,3 +25,5 @@ Object.keys(Icons).forEach((key) => {
 })
 app.component('Preview', Preview)
 app.use(JW).use(router).use(ElementPlus, { locale: zhCn }).mount('#app')
+
+console.log(app.config.globalProperties)

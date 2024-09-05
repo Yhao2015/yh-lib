@@ -48,6 +48,12 @@ const routes = [
         name: 'FormTable',
         path: '/FormTable',
         component: () => import('packages/FormTable/docs/README.md')
+    },
+    {
+        title: 'Grid',
+        name: 'Grid',
+        path: '/Grid',
+        component: () => import('packages/Grid/docs/README.md')
     }
 ]
 

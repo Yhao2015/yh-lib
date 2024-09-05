@@ -12,7 +12,6 @@
 </template>
 
 <script lang="ts" setup>
-// import { merge } from 'lodash-es'
 import { ref, defineProps } from 'vue'
 
 let treeRef = ref()

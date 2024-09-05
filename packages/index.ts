@@ -7,6 +7,9 @@ import { DynamicFormPlugin } from './DynamicForm'
 import { DrawerPlugin } from './Drawer'
 import { FormTablePlugin } from './FormTable'
 import { TreePlugin } from './Tree'
+import { GridPlugin } from './Grid'
+
+import Utils from './Utils'
 
 
 const YPlugin: Plugin = {
@@ -18,6 +21,8 @@ const YPlugin: Plugin = {
         DrawerPlugin.install ?.(app)
         FormTablePlugin.install ?.(app)
         TreePlugin.install ?.(app)
+        GridPlugin.install ?.(app)
+        app.config.globalProperties.$utils = Utils
     }
 }
 

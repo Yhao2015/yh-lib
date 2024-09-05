@@ -31,9 +31,18 @@
   justify-content: center;
   display: flex;
   margin-top: 16px;
-}.custom-tree-node[data-v-c6536558] {
+}.custom-tree-node[data-v-c6e0fe37] {
   width: calc(100% - 30px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}.yh-grid[data-v-4e70538c] {
+  display: grid;
+  grid-gap: var(--872e5ca6);
+  width: 100%;
+  height: 100%;
+}
+.yh-grid[data-v-4e70538c] >div {
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
 }
